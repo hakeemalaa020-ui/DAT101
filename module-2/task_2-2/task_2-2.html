@@ -12,31 +12,32 @@
     <ol>
       <li>Where should you use constants, and where should you use variables? Can they all be constants?</li>
       <p>
-				Replace this with you answer
+				vi bruker konstanter (const) for verdier som aldri skal endres i løpet av programmet (som totalMinutes). Vi bruker variabler (let) når verdien må kunne oppdateres eller bergnes på nytt. De kan ikke alle være konstanter fordi et porgram ofte må endre på data undereis. 
 			</p>
       <li>How do parentheses affect the arithmetic outcome of an expression?</li>
       <p>
-				Replace this with you answer
+				Parenteser endrer rekkefølgen på de matematiske operasjonene (operatorpresedens). Det som står inne i parentesen blir beregnet først, slik at vi for eksempel kan gjøre pluss eller minus før vi ganger elle deler. 
 			</p>
       <li>How do we limit floating-point numbers to a given number of decimals?</li>
       <p>
-				Replace this with you answer
-			</p>
+				Vi kan bruke metoden .toFixed(x), der x er antall desimaler vi ønsker. Alternativt kan vi bruke funksjoner som Math.round() , Math.foolr() eller math.ceil() for å fjerne desimalene helt. 
+      
       <li>How can we compare two floating-point values to see if they are equal (is 12.199999 the same as 12.2)?</li>
       <p>
-				Replace this with you answer
+				Vi kan sammenligne verdiene ved å bruke en streng-funksjon eller konvertere dem. Hvis vi sammenlinger to flytall direke for å se om de er helt like, kan det oppstå små unøyaktigheter i JavaScript. derfor bør vi sjekke om forskjellen mellom dem er ekstremt liten mindre enn. 
 			</p>
       <li>What do comparison operators return, and how can we check if they are FALSE or TRUE?</li>
       <p>
-				Replace this with you answer
+				Sammenligningsoperatorer (som >, <, ==) returnerer enten true (sant) eller false (usant). For å sjekke om noe er FALSE, kan vi bruke den logiske operatoren ! (ikke) foran uttrykket. 
 			</p>
       <li>How does the Math.random() function work, and what can it be used for?</li>
-      <p>
-				Replace this with you answer
-			</p>
+      
+     generer et tilfeldig Math.random () desimaltall som er større enn eller lik 0, men strengt mindre enn 1 (0<=x<1). Det brukes til å lage tilfeldig tall, for eksmpel spil (som terningkast) eller kryptering, ved å gange det med et maks-tall og runde av. 
+
       <li>What is modulus (%), and when do we need this operator in mathematical operations?</li>
       <p>
-				Replace this with you answer
+				Modulus-operatoren (%) gir oss resten etter en divisjon (divisjonsrest). Vi trenger denne operatoren i matematiske poerasjoner når vi for eksempel vil sjekke om et tall er partall eller oddetall (ved å dele på 2), eller når vi skal konvertere tidsenheter (som å finne gjenstående minuter eller sekunder etter å ha trukket fra hele timer eller dager). 
+         
 			</p>
     </ol>
 		<script type="module" src="./task_2-2.mjs" defer></script>
